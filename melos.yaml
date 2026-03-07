@@ -1,0 +1,11 @@
+name: atlas_stack_workspace
+
+packages:
+  - packages/**
+  - apps/**
+
+sdkPath: .fvm/flutter_sdk
+
+
+scripts:
+  analyze:
