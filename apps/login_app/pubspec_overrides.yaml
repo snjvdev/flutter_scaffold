@@ -1,0 +1,3 @@
+dependency_overrides:
+  http_client:
+    path: ../../packages/http_client

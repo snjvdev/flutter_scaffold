@@ -4,8 +4,10 @@ packages:
   - packages/**
   - apps/**
 
-sdkPath: .fvm/flutter_sdk
-
 
 scripts:
   analyze:
+    packageFilters:
+      scopes:
+        - packages/**
+        - apps/** 

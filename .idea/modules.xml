@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<module fileurl="file://$PROJECT_DIR$/melos_atlas_stack_workspace.iml" filepath="$PROJECT_DIR$/melos_atlas_stack_workspace.iml"/>
+      <module fileurl="file://$PROJECT_DIR$/packages/http_client/melos_http_client.iml" filepath="$PROJECT_DIR$/packages/http_client/melos_http_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/login_app/melos_login_app.iml" filepath="$PROJECT_DIR$/apps/login_app/melos_login_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/network_client/melos_network_client.iml" filepath="$PROJECT_DIR$/packages/network_client/melos_network_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_atlas_stack_workspace.iml" filepath="$PROJECT_DIR$/melos_atlas_stack_workspace.iml" />
     </modules>
   </component>
 </project>

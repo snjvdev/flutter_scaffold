@@ -1,8 +1,8 @@
-name: atlas_stack_workspace
+name: atlas_stack_workspace_project
 description: Atlas Stack Workspace Project
 publish_to: "none" 
 
-version: 0.0.1
+version: 1.0.0
 
 environment:
   sdk: ">=3.7.2 <4.0.0"
@@ -15,9 +15,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  melos: ^7.4.0
-  husky: ^0.1.7
-  flutter_lints: ^6.0.0
+  melos: ^6.3.2
 
 lint_staged:
   "lib/**.dart": dart format -l 70 && dart analyze --fatal-infos --fatal-warnings
